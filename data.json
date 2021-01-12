@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "A Random Quote Generator",
+            "description": "A program that displays a randomly selected quote each time the user clicks a button or automatically after time has passed.",
+            "technologies": ["HTML", "CSS", "JavaScript", "Slack"],
+            "live_link": "https://ernestnezic.github.io/techdegree-project-1",
+            "github_link": "https://github.com/ernestnezic/techdegree-project-1",
+            "image_urls": ["./images/project-1/project-1-profilePic.jpg", "./images/project-1/project-1-screenshoot-1.jpg", "./images/project-1/project-1-screenshoot-2.jpg"]
+        },
+        {
+            "id": 1,
+            "project_name": "List Pagination and Filtering",
+            "description": "A program that divides a long list into a series of pages and improves the user experience of a web page.",
+            "technologies": ["HTML", "CSS", "DOM"],
+            "live_link": "https://ernestnezic.github.io/techdegree_project_2",
+            "github_link": "https://github.com/ernestnezic/techdegree_project_2",
+            "image_urls": ["./images/project-2/project-2-profilePic.jpg", "./images/project-2/project-2-screenshoot-1.jpg", "./images/project-2/project-2-screenshoot-2.jpg"]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "A program that enchances a form so it's engaging, interactive and brings an overall better UX.",
+            "technologies": ["HTML Forms", "CSS", "RegEx", "JavaScript"],
+            "live_link": "https://ernestnezic.github.io/techdegree-project-3",
+            "github_link": "https://github.com/ernestnezic/techdegree-project-3",
+            "image_urls": ["./images/project-3/project-3-profilePic.jpg", "./images/project-3/project-3-screenshoot-1.jpg", "./images/project-3/project-3-screenshoot-2.jpg"]
+        },
+        {
+            "id": 3,
+            "project_name": "OOP Game Show App",
+            "description": "A program that selects a random, hidden phrase. A player then tries to guess the phrase by selecting individual letters from an onscreen keyboard. Each game has a limited number of lives before it's game over.",
+            "technologies": ["HTML", "CSS", "OOP", "JavaScript"],
+            "live_link": "https://ernestnezic.github.io/techdegree-project-4",
+            "github_link": "https://github.com/ernestnezic/techdegree-project-4",
+            "image_urls": ["./images/project-4/project-4-profilePic.jpg", "./images/project-4/project-4-screenshoot-1.jpg", "./images/project-4/project-4-screenshoot-2.jpg"]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "A program that displays an employee directory by communicating with a third-party API. User can filter the directory, and open full windows to view more information on each employee.",
+            "technologies": ["HTML", "CSS", "JavaScript", "Git", "API Fetching"],
+            "live_link": "https://ernestnezic.github.io/techdegree-project-5",
+            "github_link": "https://github.com/ernestnezic/techdegree-project-5",
+            "image_urls": ["./images/project-5/project-5-profilePic.jpg", "./images/project-5/project-5-screenshoot-1.jpg", "./images/project-5/project-5-screenshoot-2.jpg"]
+        }
+    ]
+}
