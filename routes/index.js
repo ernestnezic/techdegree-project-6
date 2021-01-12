@@ -12,9 +12,17 @@ router.get('/about', (req, res) => {
     res.render('about');
 });
 
-router.get('/projects/:id', (req, res) => {
+router.get('/project/:id', (req, res) => {
     const projectId = req.params.id;
-    res.render('project');
+    if ( projectId >= 0 && projectId <= projects.length) {
+        res.render('project', {project : projects[projectId]});
+    } else {
+        const err = new Error();
+        err.status = 404;
+        err.message = '404 - Page Not Found!'
+        res.render('page-404', { status : err.message })
+    }
+    
     
 });
 
