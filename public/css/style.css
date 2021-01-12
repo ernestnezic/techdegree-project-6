@@ -58,20 +58,20 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: #405e47;
   color: #fff;
-  box-shadow: none !important;
+  box-shadow: 7px 3px 2px gray !important;
 }
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: rgb(185, 181, 181);
   }
 
   .portfolio-me a{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
+    color: rgb(204, 201, 201);
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
