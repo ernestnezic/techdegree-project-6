@@ -1,5 +1,6 @@
 extends layout.pug
 
 block content
-    h1 #{status}
+    h1= status.status
+    h2= status.message
     a(href='/') ← Back
